@@ -21,7 +21,7 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
-            <div sx={styles.newsUpdate}>
+            {/* <div sx={styles.newsUpdate}>
               <span>NEWS</span>
               We have updated our term &amp; condition policy{' '}
               <IoIosArrowForward
@@ -29,7 +29,7 @@ const Banner = () => {
                 size="14px"
                 sx={{ ml: 1 }}
               />
-            </div>
+            </div> */}
             <Heading as="h1">
               Engage your website visitors using support management tools
             </Heading>
@@ -38,12 +38,12 @@ const Banner = () => {
               efficient and familiar. Our extensive developer tools might also
               strike your fancy website.
             </Text>
-            <div sx={styles.buttonGroup}>
+            {/* <div sx={styles.buttonGroup}>
               <Button variant="primary">Try free trial</Button>
               <Button variant="white" className="white">
                 Discover in video
               </Button>
-            </div>
+            </div> */}
           </Box>
           <Flex as="figure" sx={styles.illustration}>
             <Image src={illustration} alt="illustration" />

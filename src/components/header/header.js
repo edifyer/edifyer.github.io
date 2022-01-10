@@ -35,15 +35,15 @@ export default function Header() {
           className={state.isSticky ? 'is-sticky' : ''}
         >
           <Container sx={styles.container}>
-            <Logo sx={styles.logo} />
+            <Logo />
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
               {menuItems.map(({ path, label }, i) => (
                 <NavLink key={i} path={path} label={label} />
               ))}
             </nav>
-            <Button variant="primary" sx={styles.button}>
+            {/* <Button variant="primary" sx={styles.button}>
               Purchase Now
-            </Button>
+            </Button> */}
             <NavbarDrawer />
           </Container>
         </header>

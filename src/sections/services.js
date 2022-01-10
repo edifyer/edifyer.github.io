@@ -13,21 +13,21 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'For Individuals',
+    title: 'For Brands',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'For Team',
+    title: 'For Influencers',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
-  {
-    id: 3,
-    icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
+  // {
+  //   id: 3,
+  //   icon: icon3,
+  //   title: 'For Organization',
+  //   description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+  // },
 ];
 
 const settings = {
@@ -69,7 +69,7 @@ const Services = () => {
           slogan="Ideal solutions for you"
           title="Go beyond ultimate Services"
         />
-        <Slider sx={styles.features} {...settings}>
+        <Slider sx={styles.features} {...settings} id="here">
           {data?.map((item) => (
             <Feature key={item.id} className="feature-item" data={item} />
           ))}
@@ -96,7 +96,7 @@ const styles = {
     maxWidth: 1175,
     mx: 'auto',
     justifyContent: ['center', null, null, 'unset'],
-    gridTemplateColumns: [null, null, null, 'repeat(3, 1fr)'],
+    gridTemplateColumns: [null, null, null, 'repeat(2, 1fr)'],
     '.slick-list': {
       paddingTop: ['31px', null, null, null, 0],
     },
