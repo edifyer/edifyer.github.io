@@ -23,7 +23,7 @@ const styles = {
     marginBottom: '0 !important',
   },
   title: {
-    fontFamily: 'heading',
+    fontFamily: 'body',
     fontWeight: 700,
     fontSize: [5, null, null, 26, null, 30, 9],
     lineHeight: [1.33, 1.33, 1.48],
