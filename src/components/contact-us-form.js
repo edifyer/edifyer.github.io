@@ -48,7 +48,7 @@ const ContactUsForm = ({ buttonLabel, ...props }) => {
         Message
       </Label>
       <Input type="message" id="message" placeholder="Enter Message" required />
-      <Button>{buttonLabel ?? 'Submit'}</Button>
+      <Button sx={styles.button}> {buttonLabel ?? 'Submit'}</Button>
     </Flex>
   );
 };
@@ -68,6 +68,8 @@ const styles = {
     },
     button: {
       ml: [3],
+      mt: 'auto',
+      mb: 'auto',
     },
   },
 };

@@ -7,12 +7,13 @@ import ContactUsForm from 'components/contact-us-form';
 
 const ContactUs = () => {
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" id="contact" sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}
           title="Contact us"
-          description="By subscribing with your mail, you will accept our privacy policy"
+          // description="By subscribing with your mail, you will accept our privacy policy"
+          description="Share your idea with us. Our team will get in touch with you to discuss more"
         />
         <ContactUsForm sx={styles.contactUsForm} />
       </Container>
@@ -25,7 +26,7 @@ export default ContactUs;
 const styles = {
   section: {
     backgroundColor: '#353448',
-    pt: [9, null, null, null, 10, 13, null],
+    pt: [9, null, null, null, 10, null, null],
     pb: [9, null, null, null, 11, 14, null],
   },
   heading: {
@@ -62,7 +63,7 @@ const styles = {
       fontSize: [1, null, null, 2],
       minHeight: [50, null, null, null, 60],
       ml: [0, null, null, 3],
-      mt: [4, null, null, 0],
+      mt: [4, null, null, 'auto'],
     },
   },
 };

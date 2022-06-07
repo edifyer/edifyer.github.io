@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startuplanding.io',
+  siteUrl: 'https://edifyer.github.io/',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {

@@ -5,29 +5,32 @@ import Slider from 'react-slick';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/icons/services/1.png';
-import icon2 from 'assets/images/icons/services/2.png';
-import icon3 from 'assets/images/icons/services/3.png';
+// import icon1 from 'assets/images/icons/services/1.png';
+// import icon2 from 'assets/images/icons/services/2.png';
+// import icon3 from 'assets/images/icons/services/3.png';
+import marketing from 'assets/images/icons/services/marketing.png';
+import development from 'assets/images/icons/services/development.svg';
+import design from 'assets/images/icons/services/design.svg';
 
 const data = [
   {
     id: 1,
-    icon: icon1,
-    title: 'For Brands',
+    icon: development,
+    title: 'Development',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
   {
     id: 2,
-    icon: icon2,
-    title: 'For Influencers',
+    icon: marketing,
+    title: 'Digital Marketing',
     description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
   },
-  // {
-  //   id: 3,
-  //   icon: icon3,
-  //   title: 'For Organization',
-  //   description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  // },
+  {
+    id: 3,
+    icon: design,
+    title: 'Graphic Design',
+    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+  },
 ];
 
 const settings = {
@@ -96,7 +99,7 @@ const styles = {
     maxWidth: 1175,
     mx: 'auto',
     justifyContent: ['center', null, null, 'unset'],
-    gridTemplateColumns: [null, null, null, 'repeat(2, 1fr)'],
+    gridTemplateColumns: [null, null, null, 'repeat(3, 1fr)'],
     '.slick-list': {
       paddingTop: ['31px', null, null, null, 0],
     },

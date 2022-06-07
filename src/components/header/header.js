@@ -9,6 +9,7 @@ import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 
 import menuItems from './header.data';
+import { Link } from 'react-scroll';
 
 export default function Header() {
   const [state, setState] = useState({
@@ -36,14 +37,15 @@ export default function Header() {
         >
           <Container sx={styles.container}>
             <Logo />
-            <nav as="nav" sx={styles.navbar} className={'navbar'}>
+            {/* <nav as="nav" sx={styles.navbar} className={'navbar'}>
               {menuItems.map(({ path, label }, i) => (
                 <NavLink key={i} path={path} label={label} />
               ))}
-            </nav>
-            {/* <Button variant="primary" sx={styles.button}>
-              Purchase Now
-            </Button> */}
+            </nav> */}
+            <Link sx={styles.button} to="contact" smooth={true} duration={1000}>
+              Contact Us
+            </Link>
+
             <NavbarDrawer />
           </Container>
         </header>
@@ -92,5 +94,11 @@ const styles = {
     display: ['none', null, null, null, 'inline-flex'],
     minHeight: 45,
     px: '18px',
+    color: 'background',
+    variant: 'buttons.default',
+    bg: 'primary',
+    '&:hover': {
+      bg: 'muted',
+    },
   },
 };
