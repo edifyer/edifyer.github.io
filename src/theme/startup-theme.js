@@ -38,6 +38,7 @@ export default {
     // body:
     //   'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     monospace: 'Menlo, monospace',
+    cursive: 'Squada One, cursive',
   },
   fontSizes: [
     12, // 0

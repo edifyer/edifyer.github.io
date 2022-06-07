@@ -15,6 +15,10 @@ class CustomDocument extends Document {
             rel="stylesheet"
             crossOrigin="anonymous"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />

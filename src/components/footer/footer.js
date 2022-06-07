@@ -6,14 +6,14 @@ import { Link } from 'components/link';
 import Logo from 'components/logo';
 
 const menuItems = [
-  {
-    path: '#home',
-    label: 'Home',
-  },
-  {
-    path: '#services',
-    label: 'Services',
-  },
+  // {
+  //   path: '#home',
+  //   label: 'Home',
+  // },
+  // {
+  //   path: '#services',
+  //   label: 'Services',
+  // },
   {
     path: 'https://www.instagram.com/theedifyer',
     label: 'Instagram',

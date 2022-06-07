@@ -17,8 +17,8 @@ const styles = {
     cursor: 'pointer',
     display: 'inline-flex',
     maxWidth: [null, null, null, 185, null, 'none'],
-    fontWeight: 800,
-    fontSize: '30px',
+    fontSize: '40px',
+    fontFamily: 'cursive',
     // svg: {
     //   height: 'auto',
     //   width: [128, null, '100%'],
