@@ -17,19 +17,19 @@ const data = [
     id: 1,
     icon: development,
     title: 'Development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `We Provide high class Web, App and Cloud Development Solutions to boost your company performance.`,
   },
   {
     id: 2,
     icon: marketing,
     title: 'Digital Marketing',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `We Provide Social Media Marketing, Influencer, Marketing, Content Marketing, SEO and all types of digital marketing`,
   },
   {
     id: 3,
     icon: design,
     title: 'Graphic Design',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    description: `We Provide Logo Design, Social Media Design, Website Design and all types of Designs.`,
   },
 ];
 
