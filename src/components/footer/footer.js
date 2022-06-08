@@ -15,6 +15,16 @@ const menuItems = [
   //   label: 'Services',
   // },
   {
+    path: 'tel:+919977127384',
+    label: 'Call- +91-99771-27384',
+    target: '_blank',
+  },
+  {
+    path: 'mailto:contact@edifyer.co',
+    label: 'Mail- contact@edifyer.co',
+    target: '_blank',
+  },
+  {
     path: 'https://www.instagram.com/theedifyer',
     label: 'Instagram',
     target: '_blank',
